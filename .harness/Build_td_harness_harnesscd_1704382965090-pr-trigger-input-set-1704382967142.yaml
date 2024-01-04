@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_td_harness_harnesscd_1704382965090-pr-trigger-input-set
+  identifier: Build_td_harness_harnesscd_1704382965090prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Project2Testing
+  pipeline:
+    identifier: Build_td_harness_harnesscd_1704382965090
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
